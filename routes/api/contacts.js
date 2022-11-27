@@ -1,5 +1,5 @@
 const express = require("express");
-const Joi = require("Joi");
+const Joi = require("joi");
 const router = express.Router();
 const Contact = require("../../models/contacts");
 const createError = require("./helpers/createError");
